@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "image":"https://i.ibb.co.com/Nn9SnFk/Screenshot-28.png",
+    "projectName": "Care Nest",
+    "category":"Service",
+    "date": "2024-12-20",
+    "liveLink": "https://assignment-11-851e3.web.app/",
+    "gitLink":"https://github.com/programming-hero-web-course2/b10a11-client-side-mahmudrkb",
+    "description":"A Care Nest website could serve as a centralized platform for caregiving services, offering resources and support for individuals seeking professional care for loved ones.",
+    "features": [
+      "Services Directory: ",
+      "Booking System: ",
+      "Resources Section:",
+      "Responsive design"
+    ],
+    "journey": "Developed using React and Node.js with seamless integration of APIs for real-time inventory updates.",
+    "lacking": "Limited payment gateway options and no multilingual support.",
+    "nextPlan": "Add more payment gateways, integrate multilingual support, and enhance performance for high traffic."
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/D8qzyrG/Screenshot-26.png",
+    "projectName": "Chinema Pro",
+    "category":"Movie Site",
+    "date": "2024-12-10",
+    "liveLink": "https://assignment-10-6eb15.web.app/",
+    "gitLink":"https://github.com/programming-hero-web-course2/b10-a10-client-side-mahmudrkb",
+    "description": "CineHub is an online platform dedicated to movie lovers, providing up-to-date information about the latest films, movie schedules, showtimes, and cinema locations. The website offers a seamless user experience for browsing movies,",
+    "features": [
+      "News & Updates",
+      "Search & Filters",
+      "Special Promotions:"
+    ],
+
+    "journey": "Built from scratch using HTML, CSS, and JavaScript with a focus on responsive and minimalist design.",
+    "lacking": "No blog section and limited animations.",
+    "nextPlan": "Add a blog section, implement smooth animations, and enhance SEO optimization."
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/42hhSK1/Screenshot-29.png",
+    "projectName": "Mountain Treks",
+    "category":"Service ",
+    "date": "2024-11-15",
+    "liveLink": "https://assignment-09-e76ec.web.app/",
+    "gitLink":" https://github.com/programming-hero-web-course1/b10-a9-authentication-mahmudrkb",
+    "description": "Mountain Treks is an adventure travel website dedicated to providing outdoor enthusiasts with a comprehensive guide to mountain treks around the world. The platform offers detailed information on various trekking routes, including difficulty levels, duration, best times to visit, and required gear. Users can explore popular trekking destinations, read reviews, and find expert tips to prepare for their next mountain adventure.",
+    "features": [
+      "Trek Listings & Details",
+      "Trek Search & Filters",
+      "User Reviews & Ratings",
+      "Mobile support",
+      "Login & Registrations"
+    ],
+    "journey": "Designed using a MERN stack with Firebase for authentication and notification services.",
+    "lacking": "No offline mode and basic UI/UX design.",
+    "nextPlan": "Implement offline mode, redesign UI/UX for better user experience, and add task progress tracking."
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/fGRcCXG/Screenshot-32.png",
+    "projectName": "Peddy ",
+    "category":"Service",
+    "date": "2024-4-15",
+    "liveLink": "https://pets-adopt-assignment-06.netlify.app/",
+    "gitLink":" https://github.com/programming-hero-web-course2/b10a6-pet-adoption-mahmudrkb",
+    "description": "Peddy is a comprehensive online platform designed to make pet care easier and more enjoyable for pet owners. It connects pet lovers with a wide range of services, products, and advice to ensure the well-being of their furry companions.",
+    "features": [
+      "Pet Adoption",
+      "Sort by Price",
+      "Pet Like",
+      "Pet Details"
+    ],
+    "journey": "Designed using a HTML Css and javascript ",
+    "lacking": " No firebase authentication  ",
+    "nextPlan": "Implement offline mode, redesign UI/UX for better user experience, and add firebase authentication."
+  }
+]
