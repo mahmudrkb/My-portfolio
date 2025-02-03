@@ -15,7 +15,7 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 const Skills = () => {
   AOS.init();
   return (
-  <div className="bg-[url('https://i.ibb.co.com/LDjBFcCN/27230.jpg')] bg-cover bg-center text-white">
+  <div className="bg-gradient-to-t from-black to-purple-950   bg-cover bg-center text-white">
       <div id="skills" className="p-3 pt-10 container mx-auto   pb-20">
       <h1 className="text-4xl font-bold my-10  text-center ">
         MY <span className="text-purple-700">SKILLS</span>{" "}

@@ -86,7 +86,7 @@ const Navbar = () => {
             {" "}
             <a
               className="flex items-center gap-2"
-              href="/src/assets/resume of rakib molla.pdf"
+              href="/resume of rakib molla.pdf"
                 download="Resume_of_Rakib_Molla.pdf"
             >
             Resume

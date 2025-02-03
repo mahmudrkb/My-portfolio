@@ -24,7 +24,7 @@ const Projects = () => {
   // console.log(data)
 
   return (
-   <div  className="bg-[url('https://i.ibb.co.com/0pYFC6ky/sep09.jpg')]  bg-cover bg-center">
+   <div  className=" bg-black bg-cover bg-center">
      <div className= "  container mx-auto   pt-10 " id="projects">
       <div className="container mx-auto">
         <h1 className="text-4xl font-bold my-10  text-center text-white ">

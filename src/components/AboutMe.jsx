@@ -5,7 +5,7 @@ const AboutMe = () => {
     AOS.init();
    
   return (
-    <div id="about" className="bg-[url('https://i.ibb.co.com/6RpB73QN/54094.jpg')]  text-white bg-cover bg-center pt-20  pb-10">
+    <div id="about" className="bg-gradient-to-l from-black to-purple-950   text-white bg-cover bg-center pt-20  pb-10">
       <h1 className="text-4xl font-bold   text-center ">
         ABOUT <span className="text-purple-700">ME</span>{" "}
       </h1>

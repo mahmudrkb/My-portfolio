@@ -1,10 +1,4 @@
-import {
-  FaArrowDown,
-  FaDownload,
-  FaFacebook,
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaDownload, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Banner = () => {
   return (
@@ -18,7 +12,10 @@ const Banner = () => {
           <div className="space-y-2 text-white">
             <h1 className="text-3xl font-bold">Hello !</h1>
             <h1 className="text-5xl font-bold">
-              I am a <span className="  bg-gradient-to-l from-blue-400 to-purple-700 bg-clip-text text-transparent">Web Developer !</span>
+              I am a{" "}
+              <span className="  bg-gradient-to-l from-blue-400 to-purple-700 bg-clip-text text-transparent">
+                Web Developer !
+              </span>
             </h1>
             <p className="py-3  ">
               I'm Rakib a passionate MERN Stack Developer specializing in
@@ -59,7 +56,7 @@ const Banner = () => {
               {" "}
               <a
                 className="flex items-center gap-2"
-                href="/src/assets/resume_of_rakib_molla.pdf"
+                href="/resume of rakib molla.pdf"
                 download="Resume_of_Rakib_Molla.pdf"
               >
                 Download Resume

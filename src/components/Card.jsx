@@ -25,7 +25,7 @@ const Card = ({ project }) => {
     <div 
      data-aos="fade-up"
     data-aos-duration="1500" className=" m-5 hover:shadow-2xl">
-      <div className="card bg-white bg-opacity-90 bg-cover bg-center bg-[url('https://i.ibb.co.com/Fk23FHL2/footer-bg-1-1.png')] shadow-xl">
+      <div className="card bg-base-300  bg-cover bg-center  shadow-xl">
         <figure>
           <img src={image} className="h-72" />
         </figure>
