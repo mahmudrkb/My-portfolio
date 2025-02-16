@@ -1,6 +1,25 @@
 import { FaDownload, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import Typed from "typed.js";
+import React from "react";
 
 const Banner = () => {
+  // Create reference to store the DOM element containing the animation
+  const el = React.useRef(null);
+
+  React.useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["Web developer", "Frontend Developer", "MERN Stack Developer"],
+      typeSpeed: 100,
+
+      backSpeed: 100,
+      loop: true,
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
   return (
     <div className=" bg-gradient-to-r from-black to-purple-950 ">
       <div className="hero container mx-auto p-3 py-5 pb-4 lg:pb-0  ">
@@ -13,7 +32,10 @@ const Banner = () => {
             <h1 className="text-3xl font-bold">Hello !</h1>
             <h1 className="text-5xl font-bold">
               I am a{" "}
-              <span className="  bg-gradient-to-l from-blue-400 to-purple-700 bg-clip-text text-transparent">
+              <span
+                ref={el}
+                className="  bg-gradient-to-l from-blue-400 to-purple-700 bg-clip-text text-transparent"
+              >
                 Web Developer !
               </span>
             </h1>
