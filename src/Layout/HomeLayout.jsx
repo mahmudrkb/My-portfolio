@@ -11,6 +11,7 @@ import Projects from "../components/Projects";
 const HomeLayout = () => {
   return (
     <div id="home" className="josefin-sans ">
+      
       <Navbar></Navbar>
       <Banner></Banner>
       <AboutMe></AboutMe>

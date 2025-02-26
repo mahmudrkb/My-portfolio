@@ -78,7 +78,7 @@ const Banner = () => {
               {" "}
               <a
                 className="flex items-center gap-2"
-                href="/resume of rakib molla.pdf"
+                href="/resume of Rakib molla.pdf"
                 download="Resume_of_Rakib_Molla.pdf"
               >
                 Download Resume

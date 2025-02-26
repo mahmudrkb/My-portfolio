@@ -13,24 +13,24 @@ const Navbar = () => {
         <Link to={"/"} > Home</Link>
       </li>
       <li onClick={() => scrollToSection("about")} className="mr-2 font-bold ">
-        <Link to={"/"} > About Me</Link>
+        <Link  > About Me</Link>
       </li>
 
       <li onClick={() => scrollToSection("skills")} className="mr-2 font-bold ">
-        <Link to={"/"}> Skills</Link>
+        <Link > Skills</Link>
       </li>
       <li
         onClick={() => scrollToSection("projects")}
         className="mr-2 font-bold "
       >
-        <Link to={"/"}> My Projects</Link>
+        <Link > My Projects</Link>
       </li>
      
       <li
         onClick={() => scrollToSection("contact")}
         className="mr-2 font-bold "
       >
-        <Link to={"/"}>Contact Me</Link>
+        <Link >Contact Me</Link>
       </li>
     </>
   );
@@ -86,7 +86,7 @@ const Navbar = () => {
             {" "}
             <a
               className="flex items-center gap-2"
-              href="/resume of rakib molla.pdf"
+              href="/resume of Rakib molla.pdf"
                 download="Resume_of_Rakib_Molla.pdf"
             >
             Resume
