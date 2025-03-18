@@ -10,7 +10,7 @@ const Navbar = () => {
   const links = (
     <>
       <li onClick={() => scrollToSection("home")} className="mr-2 font-bold ">
-        <Link to={"/"} > Home</Link>
+        <Link  to={"/"} > Home</Link>
       </li>
       <li onClick={() => scrollToSection("about")} className="mr-2 font-bold ">
         <Link  > About Me</Link>
@@ -35,7 +35,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="  sticky top-0 z-10 bg-black   ">
+    <div className="  sticky top-0 z-10 bg-gradient-to-r from-black to-purple-950   ">
       <div className="navbar p-3   container z-auto mx-auto  ">
         <div className="navbar-start">
           <div className="dropdown">

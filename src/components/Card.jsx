@@ -33,7 +33,7 @@ const Card = ({ project }) => {
           <h2 className="card-title text-3xl">{projectName}</h2>
           <h4><span className="font-bold">Date :</span> {date}</h4>
           <h4><span className="font-bold" >Category :</span> {category}</h4>
-          <p className="">{description.substring(0, 100)}...</p>
+          <p className="">{description.substring(0, 80)}...</p>
 
           <div className="card-actions justify-between">
           <a href={liveLink} target="_blank" className="text-sm mt-5 hover:text-purple-500  font-bold  py-2 px-3   gap-1 text-white rounded-md bg-purple-950">
